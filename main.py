@@ -30,9 +30,9 @@ async def is_admins(chat_id: int):
     ]
 
 
-@bot.on_message(filters.command("start"))
+@bot.on_message(filters.command("Cstart"))
 async def start(client, message):
-        await message.reply_text("ʜɪ! ᴍʏ ɴᴀᴍᴇ ɪꜱ ᴇʟʟᴀ ᴄʜᴀᴛʙᴏᴛ💙. ɪ'ᴍ ᴀɴ ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ\ɴ /ᴄʜᴀᴛʙᴏᴛ - [on|off]")
+        await message.reply_text("ʜɪ! ᴍʏ ɴᴀᴍᴇ ɪꜱ ᴀʟɪsʜᴀ ᴄʜᴀᴛʙᴏᴛ💙. ɪ'ᴍ ᴀɴ ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ\ɴ /ᴄʜᴀᴛʙᴏᴛ - [on|off]")
 
 
 @bot.on_message(
